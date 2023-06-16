@@ -1,0 +1,10 @@
+let age;
+
+//firts
+
+if (age >= 14 && age <= 90) {}
+
+//second
+
+if (!(age >= 14 && age <= 90)) {}
+if (age < 14 || age > 90) {}
