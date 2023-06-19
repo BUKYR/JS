@@ -1,0 +1,13 @@
+/*
+while (true) {
+  let value = prompt('Введи число больше 100', '');
+  
+  if (value>100) break 
+}
+*/
+
+let value = 0;
+
+do {
+    value =  prompt('Введи число больше 100', '');
+} while (value <= 100 && value)
