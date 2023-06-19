@@ -1,13 +1,7 @@
-/*
-while (true) {
-  let value = prompt('Введи число больше 100', '');
-  
-  if (value>100) break 
+if  (browser === 'Edge') {
+  alert( "You've got the Edge!" )
+} else if (browser ===  'Chrome' || 'Firefox' || 'Safaru' || 'Opera') {
+  alert( 'Okay we support these browsers too' );
+} else {
+  alert( 'We hope that this page looks ok!' ); 
 }
-*/
-
-let value = 0;
-
-do {
-    value =  prompt('Введи число больше 100', '');
-} while (value <= 100 && value)
