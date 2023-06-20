@@ -1,0 +1,7 @@
+let obj = {};
+
+function isEmpty(obj) {
+    return (obj["key"]) ? true : false;
+}
+
+         
