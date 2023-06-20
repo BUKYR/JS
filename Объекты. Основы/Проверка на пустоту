@@ -1,7 +1,7 @@
 let obj = {};
 
 function isEmpty(obj) {
-    return (obj[key] == undefined) ? true : false;
+    return (obj[key] == undefined) ? true : false; //нерабочее говно
 }
 
 function isEmpty(obj) {
