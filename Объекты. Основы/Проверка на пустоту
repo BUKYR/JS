@@ -1,7 +1,15 @@
 let obj = {};
 
 function isEmpty(obj) {
-    return (obj["key"]) ? true : false;
+    return (obj[key] == undefined) ? true : false;
 }
+
+function isEmpty(obj) {
+    for (let key in obj) {
+        return false;
+      }
+      return true;
+}
+
 
          
