@@ -1,0 +1,19 @@
+let calculator = {
+    read() {
+    this.firstNumber = +prompt("Your first number", '');
+    this.secondNumber = +prompt("Your second number", '');
+    },
+
+    sum() {
+        return this.firstNumber + this.secondNumber;
+        
+    },
+
+    mul() {
+        return this.firstNumber * this.secondNumber;
+    }
+};
+
+calculator.read();
+alert( calculator.sum() );
+alert( calculator.mul() );
