@@ -5,8 +5,7 @@ let calculator = {
     },
 
     sum() {
-        return this.firstNumber + this.secondNumber;
-        
+        return this.firstNumber + this.secondNumber;  
     },
 
     mul() {
